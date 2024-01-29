@@ -1,0 +1,45 @@
+@media screen and (max-width:820px) {
+    .cart{
+        grid-template-columns: 1fr;
+
+        >main{
+            padding: 0.5rem;
+        }
+        >aside{
+            padding: 2rem;
+
+            >h2{
+                font: 100 1.2rem "Roboto";
+            }
+        }
+    }
+
+    .cartItem{
+        font-size: 0.8rem;
+        >div{
+    
+            >button{
+                width: 20px;
+                height: 20px; 
+            }
+        }
+    
+        >svg{
+            font-size: 1rem;
+        }
+    }
+}
+
+
+@media screen and (max-width:330px) {
+    .card{
+    
+        font-size: 0.9rem;
+        >button{
+            
+            font-size: 0.7rem;
+            width: 100%;
+            font-weight: 500;
+        }
+    }
+}
